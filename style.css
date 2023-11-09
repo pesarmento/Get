@@ -11,11 +11,13 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     text-align: center;
+    background-color: rgb(54, 54, 54);
 }
 
 /* Cabeçalho */
 header {
     margin: 25px 0px 25px 0px;
+    color: #fff;
     /* top right botton left */
 }
 
@@ -50,10 +52,12 @@ input[type=number] {
 .Radio p {
     padding-right: 25px;
     font-weight: 700;
+    color: #fff;
 }
 
 .Sexo {
     padding: 0px 20px 0px 5px;
+    color: #fff;
 }
 
 #atividade {
@@ -70,14 +74,16 @@ input[type=button] {
     border: none;
     background-color: #cc470d;
     color: #fff;
+    cursor: pointer;
 }
 
 input[type=reset] {
     padding: 10px 25px 10px 25px;
     border-radius: 25px;
     border: none;
-    background-color: #000;
+    background-color: #cc470d;
     color: #fff;
+    cursor: pointer;
 }
 
 /** Info IMC e FCM **/
@@ -90,6 +96,7 @@ input[type=reset] {
 
 .Peso {
     text-align: center;
+    color: #fff;
 }
 
 .Fcm {
@@ -123,7 +130,7 @@ input[type=reset] {
     width: 50px;
     height: 50px;
     position: absolute;
-    background-color: #e74c3c;
+    background-color: #ff0000;
 }
 
 .Circulo {
@@ -131,7 +138,7 @@ input[type=reset] {
     height: 50px;
     border-radius: 50px;
     position: absolute;
-    background-color: #e74c3c;
+    background-color: #ff0000;
 }
 
 .Top {
@@ -146,7 +153,13 @@ input[type=reset] {
     position: absolute;
     padding-left: 40px;
     color: #fff;
+    
 }
+
+#calorias1{
+    color: #fff;
+}
+
 
 /* Animação com CSS */
 @keyframes pulsar {
