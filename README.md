@@ -12,4 +12,4 @@
 
 
 # Get
-Calculador do gasto energético total
+Calculador do gasto energético total.
